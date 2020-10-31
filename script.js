@@ -1,3 +1,4 @@
+const moment = require("./moment");
 
 
 
@@ -54,6 +55,8 @@ $("#button-5pm").on("click", function (event) {
     var textInput = $("#input-5pm").val().trim();
     localStorage.setItem("hour-5pm", JSON.stringify(textInput));
 });
+
+moment();
 
 
 
